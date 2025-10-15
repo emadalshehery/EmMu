@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://c4ywh4tqiof14"]
+
+[node name="fly enemy" type="Node2D"]
