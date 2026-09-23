@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cceyvtwkotivl"]
+
+[node name="HealthBar" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer"]
+offset_left = 1700.0
+offset_right = 1908.0
+offset_bottom = 27.0
+value = 100.0
