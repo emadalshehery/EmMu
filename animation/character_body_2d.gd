@@ -19,7 +19,7 @@ var CanDash = true
  
 #wall jump
 var WallSlideSpeed = 50.0
-var WallJumpPush = 200.0
+var WallJumpPush = 160.0
 var WallJumpLock = 0.2
 var WallJumping = false
 var HasWallJump = false
@@ -83,6 +83,7 @@ func _physics_process(delta):
 		CanDash = false
 		$DashTimer.start()
 		$DashAgainTimer.start()
+		var gravity = 0
 	if Input.is_action_pressed("dash") and Input.is_action_pressed("jump") and CanDash :
 		Dash = true
 		CanDash = false
@@ -131,3 +132,4 @@ func _on_dash_again_timer_timeout() -> void:
  
 func _on_wall_jump_timer_timeout() -> void:
 	WallJumping = false
+ 
