@@ -7,7 +7,8 @@
 [ext_resource type="Script" uid="uid://mbpnj2qp7rj7" path="res://animation/spike.gd" id="7_k1lbq"]
 [ext_resource type="Texture2D" uid="uid://cx0bxdux153j5" path="res://sprites/DashParticals.png" id="7_kivha"]
 [ext_resource type="PackedScene" path="res://animation/wall_jump_trophy.tscn" id="8_k1lbq"]
-[ext_resource type="Texture2D" uid="uid://d1tn0nhoc36ee" path="res://sprites/WallJump Trophy.png" id="9_nivj5"]
+[ext_resource type="PackedScene" path="res://animation/checkpoint.tscn" id="9_kivha"]
+[ext_resource type="Texture2D" uid="uid://d1tn0nhoc36ee" path="res://assets/WallJump Trophy.png" id="9_nivj5"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_5tels"]
 
@@ -852,6 +853,9 @@ position = Vector2(1190, 892)
 
 [node name="WallJump" type="Sprite2D" parent="TileMap/WallJumpTrophy" unique_id=2059218236]
 texture = ExtResource("9_nivj5")
+
+[node name="Checkpoint" parent="." unique_id=337721772 instance=ExtResource("9_kivha")]
+position = Vector2(-716, 1160)
 
 [connection signal="timeout" from="TileMap/Player/CharacterBody2D/WallJumpTimer" to="TileMap/Player/CharacterBody2D" method="_on_wall_jump_timer_timeout"]
 [connection signal="timeout" from="TileMap/Player/CharacterBody2D/DashTimer" to="TileMap/Player/CharacterBody2D" method="_on_dash_timer_timeout"]
