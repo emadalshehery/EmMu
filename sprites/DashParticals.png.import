@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwigovbi78cqj"
-path="res://.godot/imported/spikes-Sheet.png-17a7bec6b1ae267880398cd35af6f15d.ctex"
+uid="uid://cx0bxdux153j5"
+path="res://.godot/imported/DashParticals.png-b01079af7e03d76350d16fe0d49ba36f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/spikes-Sheet.png"
-dest_files=["res://.godot/imported/spikes-Sheet.png-17a7bec6b1ae267880398cd35af6f15d.ctex"]
+source_file="res://sprites/DashParticals.png"
+dest_files=["res://.godot/imported/DashParticals.png-b01079af7e03d76350d16fe0d49ba36f.ctex"]
 
 [params]
 
