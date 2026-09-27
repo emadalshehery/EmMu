@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwigovbi78cqj"
-path="res://.godot/imported/spikes-Sheet.png-17a7bec6b1ae267880398cd35af6f15d.ctex"
+uid="uid://dtjft1wa44fuo"
+path="res://.godot/imported/castel wall 1.png-eaaa3efd3a664d7691deb1f04d25916d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/spikes-Sheet.png"
-dest_files=["res://.godot/imported/spikes-Sheet.png-17a7bec6b1ae267880398cd35af6f15d.ctex"]
+source_file="res://assets/castel wall 1.png"
+dest_files=["res://.godot/imported/castel wall 1.png-eaaa3efd3a664d7691deb1f04d25916d.ctex"]
 
 [params]
 

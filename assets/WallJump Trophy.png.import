@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwigovbi78cqj"
-path="res://.godot/imported/spikes-Sheet.png-17a7bec6b1ae267880398cd35af6f15d.ctex"
+uid="uid://d1tn0nhoc36ee"
+path="res://.godot/imported/WallJump Trophy.png-d0c3a2880b83c5a076456c55202b549e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/spikes-Sheet.png"
-dest_files=["res://.godot/imported/spikes-Sheet.png-17a7bec6b1ae267880398cd35af6f15d.ctex"]
+source_file="res://assets/WallJump Trophy.png"
+dest_files=["res://.godot/imported/WallJump Trophy.png-d0c3a2880b83c5a076456c55202b549e.ctex"]
 
 [params]
 
