@@ -17,12 +17,16 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 config/name="EmMu"
 run/main_scene="uid://c46rgjb4bmrnu"
 config/features=PackedStringArray("4.7", "Forward Plus")
+config/icon="uid://di6h03xo7bkol"
+
+[autoload]
+
+Abilities="*uid://34cf8onjw3u3"
 
 [display]
 
-window/size/viewport_width=1900
+window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/size/mode=3
 
 [input]
 

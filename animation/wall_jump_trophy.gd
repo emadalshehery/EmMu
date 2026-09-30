@@ -1,3 +1,4 @@
+# a light bob so the trophy reads as something to pick up, not level dressing
 extends Area2D
  
 # a light bob so the trophy reads as something to pick up, not level dressing
@@ -9,6 +10,9 @@ var _time = 0.0
 var _collected = false
  
 func _ready() -> void:
+	if Abilities.has_wall_jump:
+		queue_free()
+		return
 	_start_y = position.y
 	body_entered.connect(_on_body_entered)
  
