@@ -26,17 +26,22 @@ var HasWallJump = false
  
 func grant_wall_jump() -> void:
 	HasWallJump = true
+	Abilities.has_wall_jump = true
+ 
+func _ready() -> void:
+	if Abilities.has_wall_jump:
+		HasWallJump = true
  
 func _physics_process(delta):
-	
+ 
 	if Input.is_action_pressed("camera_down"):
 		$Camera2D.position.y = -100
 	elif Input.is_action_pressed("camera_up"):
-		$Camera2D.position.y = 50
+		$Camera2D.position.y = 75
 	elif Input.is_action_pressed("camera_left"):
-		$Camera2D.position.x = -50
+		$Camera2D.position.x = -100
 	elif Input.is_action_pressed("camera_right"):
-		$Camera2D.position.x = 50
+		$Camera2D.position.x = 100
 	else:
 		$Camera2D.position.x = 0
 		$Camera2D.position.y = -22
@@ -132,4 +137,3 @@ func _on_dash_again_timer_timeout() -> void:
  
 func _on_wall_jump_timer_timeout() -> void:
 	WallJumping = false
- 
